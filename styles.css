@@ -1,0 +1,17 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  /*flex-direction: default is row*/
+  flex-direction: column;
+  /*Main Axis*/
+  justify-content: space-around;
+  /*Cross Axis*/
+  align-items: flex-start;
+}
+
+.box {
+  background: gold;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
