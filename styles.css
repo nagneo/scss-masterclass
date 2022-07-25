@@ -1,12 +1,9 @@
 .father {
   height: 100vh;
   display: flex;
-  flex-direction: row-reverse;
   /*Main Axis*/
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
-  align-content: space-between;
 }
 
 .child {
@@ -18,4 +15,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.child:nth-child(2) {
+  background: black;
+  /*flex-grow: default is zero. take spaces around box*/
+  flex-grow: 1;
 }
