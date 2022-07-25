@@ -9,8 +9,8 @@
 - [X] justify-content
 - [X] align-items
 - [X] align-self
-- [ ] flex-wrap
-- [ ] align-content
+- [X] flex-wrap
+- [X] align-content
 - [ ] flex-grow
 - [ ] flex-shrink
 - [ ] flex-basis
