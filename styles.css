@@ -1,15 +1,15 @@
 .father {
+  flex-direction: column;
   height: 100vh;
   display: flex;
-  /*Main Axis*/
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 .child {
+  width: 100%;
+  flex-basis: 300px;
   background: peru;
-  width: 200px;
-  height: 200px;
   color: white;
   font-size: 32px;
   display: flex;
@@ -20,5 +20,5 @@
 .child:nth-child(2) {
   background: black;
   /*flex-grow: default is zero. take spaces around box*/
-  flex-grow: 1;
+  flex-grow: 0;
 }
