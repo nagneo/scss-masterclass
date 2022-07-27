@@ -2,28 +2,23 @@
   display: grid;
   gap: 10px;
   height: 100vh;
-  grid-template: 
-    "header header header header" 1fr
-    "content content content nav" 2fr
-    "footer footer footer footer " 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  place-items: stretch center; /*<align-items> <justify-items>*/
 }
 
 .header {
   background: rgb(110, 187, 66);
-  grid-area: header;
 }
 
 .content {
   background: rgb(63, 205, 193);
-  grid-area: content;
 }
 
 .nav {
   background: rgb(205, 63, 98);
-  grid-area: nav;
 }
 
 .footer {
   background: rgb(146, 119, 30);
-  grid-area: footer;
 }
