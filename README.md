@@ -30,18 +30,15 @@
 - [X] grid-column
 - [X] grid-row
 - [X] grid-template
-- [X] justify-items
-- [X] align-items
-- [X] place-items
-- [ ] justify-content
-- [ ] align-content
-- [ ] place-content
-- [ ] justify-self
-- [ ] align-self
-- [ ] place-self
-- [ ] grid-auto-rows
-- [ ] grid-auto-flow
-- [ ] grid-auto-columns
+- [X] justify-content
+- [X] align-content
+- [X] place-content
+- [X] justify-self
+- [X] align-self
+- [X] place-self
+- [X] grid-auto-rows
+- [X] grid-auto-flow
+- [X] grid-auto-columns
 
 ### Keywords & Functions:
 
