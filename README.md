@@ -42,11 +42,11 @@
 
 ### Keywords & Functions:
 
-- [ ] repeat
-- [ ] fr
-- [ ] minmax
-- [ ] auto-fit
-- [ ] auto-fill
+- [X] repeat
+- [X] fr
+- [X] minmax
+- [X] auto-fit
+- [X] auto-fill
 - [ ] min-content
 - [ ] max-content
 
