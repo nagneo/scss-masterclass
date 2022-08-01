@@ -1,0 +1,23 @@
+@import "_variables.scss";
+
+body {
+  a {
+    color: blue;
+  }
+}
+
+h1 {
+  color: titleColor;
+  font-size: $title;
+}
+
+.box {
+  margin-top: 20px;
+  &:hover {
+    background-color: green;
+  }
+}
+
+.box a {
+  color: gold;
+}
