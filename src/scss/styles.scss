@@ -1,23 +1,10 @@
 @import "_variables.scss";
+@import "_mixins.scss";
 
-body {
-  a {
-    color: blue;
-  }
+a:nth-child(odd) {
+  @include link(blue, 12px);
 }
 
-h1 {
-  color: titleColor;
-  font-size: $title;
-}
-
-.box {
-  margin-top: 20px;
-  &:hover {
-    background-color: green;
-  }
-}
-
-.box a {
-  color: gold;
+a:nth-child(even) {
+  @include link(tomato, 24px); 
 }

@@ -1,0 +1,7 @@
+@mixin link($color, $size) {
+  color: $color;
+  font-size: $size;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 12px;
+}
