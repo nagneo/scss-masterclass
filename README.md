@@ -1,8 +1,9 @@
 # SCSS Masterclass
 
 (S)CSS Layout Masterclass: Flexbox & Grid
+## What I Learned
 
-## Flexbox:
+### Flexbox:
 
 - [X] flex-direction
 - [X] order
@@ -15,7 +16,7 @@
 - [X] flex-shrink
 - [X] flex-basis
 
-## Grid:
+### Grid:
 
 - [X] grid-template-columns
 - [X] grid-template-rows
@@ -50,7 +51,7 @@
 - [X] min-content
 - [X] max-content
 
-## SCSS:
+### SCSS:
 
 - [X] Variables
 - [X] Nesting
@@ -58,7 +59,7 @@
 - [X] Extend
 - [ ] Responsive Mixins
 
-## To Clone:
+### To Clone:
 
 - [ ] [https://besthorrorscenes.com/](https://besthorrorscenes.com/)
 - [ ] [https://paint-box.com/](https://paint-box.com/)
@@ -71,3 +72,31 @@
 - [ ] [http://donicaida.com/](http://donicaida.com/)
 - [ ] [https://canalstreet.market/](https://canalstreet.market/)
 - [ ] [https://wonhundred.com/](https://wonhundred.com/)
+
+## How to use SCSS
+
+```
+npm run dev
+```
+
+### 2022 SCSS 최초 설치 가이드
+모든 프로젝트에 공통으로 적용 가능
+
+1. Install Git: https://git-scm.com/
+2. Install NodeJI LIST 설치: https://nodejs.org/en/
+3. Open VSCode > File > Open Folder > scss-study
+4. View > Terminal
+
+```
+git clone https://github.com/serranoarevalo/scss-boilerplate .
+```
+
+```
+npm i 
+```
+
+```
+npm run dev
+```
+
+5. Open index.html in browser
