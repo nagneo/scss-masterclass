@@ -75,6 +75,8 @@
 
 ## How to use SCSS
 
+### Execute
+
 ```
 npm run dev
 ```
@@ -83,9 +85,9 @@ npm run dev
 모든 프로젝트에 공통으로 적용 가능
 
 1. Install Git: https://git-scm.com/
-2. Install NodeJI LIST 설치: https://nodejs.org/en/
+2. Install NodeJI LIST: https://nodejs.org/en/
 3. Open VSCode > File > Open Folder > scss-study
-4. View > Terminal
+4. View > Terminal > Enter the following commands orderly.
 
 ```
 git clone https://github.com/serranoarevalo/scss-boilerplate .
