@@ -57,11 +57,11 @@
 - [X] Nesting
 - [X] Mixins
 - [X] Extend
-- [ ] Responsive Mixins
+- [X] Responsive Mixins
 
 ### To Clone:
 
-- [ ] [https://besthorrorscenes.com/](https://besthorrorscenes.com/)
+- [X] [https://besthorrorscenes.com/](https://besthorrorscenes.com/)
 - [ ] [https://paint-box.com/](https://paint-box.com/)
 - [ ] [http://10x19.co/](http://10x19.co/)
 - [ ] [http://www.z-o-o.fr/](http://www.z-o-o.fr/)
