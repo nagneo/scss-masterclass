@@ -1,15 +1,180 @@
-@import "_mixins.scss";
+@import "_variables";
 
+* {
+  box-sizing: border-box;
+}
 
-h1 {
-  color: red;
-  @include responsive("iphone") {
-    color: yellow;
+body {
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-color: $white;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: $fixedWidth;
+  height: 100%;
+  padding: 4vh 72px 0 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: $red;
+  h1 {
+    font-size: 85px;
+    width: 50%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
   }
-  @include responsive("iphone-l") {
-    font-size: 60px;
+  .bottom {
+    width: 90%;
+    h3 {
+      font-size: 30px;
+      font-weight: 300;
+      margin-bottom: 40px;
+    }
+    p {
+      font-weight: 300;
+      font-size: 22px;
+      margin-bottom: 40px;
+      text-align: justify;
+    }
+    nav {
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+          cursor: pointer;
+          font-size: 16px;
+          color: black;
+          opacity: 0.5;
+          margin-right: 12px;
+          padding-bottom: 5px;
+          border-bottom: 2px solid rgba(0, 0, 0, 1);
+          margin-bottom: 20px;
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+    }
   }
-  @include responsive("tablet") {
-    color: green;
+  
+}
+
+main {
+  margin-left: $fixedWidth;
+  .filter {
+    position: fixed;
+    top: 0px;
+    left: $fixedWidth;
+    padding: 36px 0px;
+    background-color: $red;
+    width: 100%;
+    div {
+      margin-left: 17%;
+      color: white;
+      font-size: 24px;
+      font-weight: 450;
+    }
+  }  
+  .movies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .movie {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.1) 5%,
+        transparent,
+        transparent,
+        transparent,
+        transparent
+      )
+      $red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    .wrapper {
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      margin: 128px 0px;
+      .movie__header {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 8fr 1fr; 
+        margin-bottom: 25px;
+        &:hover .hover {
+          visibility: visible;
+          opacity: 1;
+        }
+        .hover {
+          color: $darkText;
+          justify-self: flex-end;
+          font-size: 48px;
+          visibility: hidden;  
+          margin-right: 12px;      
+          opacity:0;
+          transition:visibility 0.7s linear,opacity 0.7s linear;
+        }
+        div {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-end;
+          h4 {
+            font-size: 48px;
+            font-weight: 600;
+            text-transform: uppercase;
+          }
+          h5 {
+            font-weight: 400;
+            align-self:flex-end;
+            font-size: 18px;
+            letter-spacing: 2px;
+            text-align: right;
+          }
+        }
+      }
+      .movie__content {
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img {
+          width: 100%;
+          aspect-ratio: 16 / 9;
+          object-fit: contain;
+          background-color: black;
+          box-shadow: 0 80px 80px -80px #000, 0 0 12px rgba(0, 0, 0, 0.06),
+            inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+        }
+        div {
+          margin-top: 24px;
+          p {
+            margin: 12px 0px;
+          }
+        }
+      }
+      .movie__footer {
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        color: $darkText;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 24px;
+      }
+    }
   }
 }

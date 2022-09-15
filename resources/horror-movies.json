@@ -1,0 +1,11 @@
+{
+  "movies": [
+    {
+      "name": "Se7en",
+      "release": 1995,
+      "image": "se7en.png",
+      "director": "David Fincher",
+      "description": ""
+    }
+  ]
+}
